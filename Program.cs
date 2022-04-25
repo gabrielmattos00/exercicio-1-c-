@@ -7,12 +7,15 @@ namespace Exercicio_1___property
     {
         static void Main(string[] args)
         {
-            Produto p = new Produto();
-            p.Nome = "TV";
-            p.Preco = 1000;
-            p.Quant = 4;
+            Produto p1 = new Produto();
+            p1.Nome = "TV";
+            p1.Preco = 1000;
+            p1.Quant = 4;
 
-            Console.WriteLine(p);
+            Console.WriteLine(p1);
+
+            Produto p2 = new Produto("Geladeira", 2000, 7);
+            Console.WriteLine(p2);
         }
     }
 }
